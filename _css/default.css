@@ -1,0 +1,62 @@
+:root {
+    --white: #FFF;
+    --black: #000;
+    --font-color-base: #666;
+    --font-color-dark: #212529;
+    --font-color-light: #b0aebe;
+    --font-color-link: #7dbcff;
+    --footer: #34314b;
+    --footer-base: #2e2b45;
+    --contrast: rgb(243, 243, 246);
+    --success: #64ECF5;
+    --danger: #FF8B8D;
+    --grad-1: #a1ecff;
+    --grad-2: #7dbcff;
+
+    --size-10: 0.625rem;
+    --size-14: 0.875rem;
+    --size-16: 1rem;
+    --size-18: 1.125rem;
+    --size-20: 1.25rem;
+    --size-30: 1.875rem;
+    --size-40: 2.5rem;
+    --size-50: 3.125rem;
+    --size-100: 6.25rem;
+    --size-150: 9.375rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+    body {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 0.875;
+        line-height: 1.6;
+        letter-spacing: 0;
+        color: var(--font-color-base);
+        margin: 0;
+        padding: 0;
+    }
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+    }
+    p {
+        margin-top: 0;
+    }
+    h2 {
+        font-size: 1.75rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    img {
+        width: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
